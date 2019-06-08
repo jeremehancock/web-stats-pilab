@@ -1,0 +1,11 @@
+#!/bin/bash
+PACKAGE="web-stats-pilab"
+VERSION="$(jq -r .version $PACKAGE/metadata.json)"
+
+zip -r zips/$PACKAGE-$VERSION.zip $PACKAGE
+
+git add .
+git commit -m "Build pushed $(date)"
+git push origin master
+echo "Complete"
+
