@@ -1,7 +1,7 @@
 # Web Stats - Pi Lab
-Bludit Plugin - Add your favorite web stats code (ex: [Statcounter](https://statcounter) to your website. You can also assign a port for your "Dev" node so the stats code will not be used.
+Bludit Plugin - Add your favorite web stats code (ex: [Statcounter](https://statcounter) to your website. You can also assign a port for your "dev" node so the stats code will not be used.
 
-This plugin was built for [Pi Lab](https://pilab.dev)
+This plugin was built for [Pi Lab](https://pilab.dev).
 
 Compatibility: 3.9.x
 
